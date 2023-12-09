@@ -1,5 +1,5 @@
 import React from "react";
-import TypeWritter from "typewriter-effect";
+import TypeWritter from "react-typewriter-effect";
 import { motion } from "framer-motion";
 import Link from "next/link";
 import dynamic from "next/dynamic";
