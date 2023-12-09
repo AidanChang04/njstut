@@ -1,10 +1,10 @@
 import dynamic from 'next/dynamic';
 import React from 'react';
-import AboutMe from '../../components/AboutMe';
-import Projects from '../../components/Projects';
-import EmailSection from '../../components/EmailSection';
-import Footer from '../../components/Footer';
-import AchievementsSection from '../../components/AchievementsSection';
+import AboutMe from 'C:/Users/aidan/njstut/components/AboutMe.jsx';
+import Projects from 'C:/Users/aidan/njstut/components/Projects.jsx';
+import EmailSection from 'C:/Users/aidan/njstut/components/EmailSection.jsx';
+import Footer from 'C:/Users/aidan/njstut/components/Footer.jsx';
+import AchievementsSection from 'C:/Users/aidan/njstut/components/AchievementsSection.jsx';
 
 //Server: not found error handler
 const HeroSection = dynamic(
