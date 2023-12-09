@@ -6,16 +6,16 @@ const projectData = [
     {
         id: 1,
         title: "Purchase Order Management System (Java) ",
-        description: "A project I worked on during my undergraduate studies. I coded this using the Java programming language.",
-        image: "/projects/linkedout&about.png",
+        description: "A project I worked on during my undergraduate studies. I coded this using the Java programming language. More information can be found via the GitHub link.",
+        image: "/PurchaseOrder.png",
         gitUrl: "https://github.com/AidanChang04/Purchase-Order-Management-System-Java-"
 
     },
     {
         id: 2,
         title: "Leave Management System (C Programming) ",
-        description: "A project I worked on during my undergraduate studies. I coded this using the C-programming language.",
-        image: "C:/Users/aidan/njstut/public/LeaveManagement.png",
+        description: "A project I worked on during my undergraduate studies. I coded this using the C-programming language. More information can be found via the GitHub link.",
+        image: "/LeaveManagement.png",
         gitUrl: "https://github.com/AidanChang04/Leave-Management-System-C-Programming-"
     },
 

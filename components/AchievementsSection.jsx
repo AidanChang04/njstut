@@ -2,12 +2,16 @@ import React from "react";
 
 const achievementsList = [
     {
-        metric: "Projects",
-        value: "3",
+        metric: "CGPAs",
+        value: "",
     },
     {
-        metric: "Years",
-        value: "2",
+        metric: "Foundation",
+        value: "3.92",
+    },
+    {
+        metric: "Degree",
+        value: "3.67",
     }
 
 ];
