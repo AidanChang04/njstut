@@ -1,5 +1,5 @@
 import React from "react";
-import TypeWritter from "react-typewriter-effect";
+import TypeWritter from "typewriter-effect";
 import { motion } from "framer-motion";
 import Link from "next/link";
 import dynamic from "next/dynamic";
@@ -19,7 +19,7 @@ const HeroSection = () => {
               {/* span text seperator -- for design*/}
               <span className="text-white text-8xl ">
                 Hello, I'm{" "} 
-                <span className="text-transparent bg-clip-text sm:text-8xl md:text-9xl bg-gradient-to-r from-indigo-500 via-purple-500 to-pink-500">
+                <span className="text-transparent bg-clip-text sm:text-8xl md:text-9xl bg-gradient-to-r from-red-500 via-orange-500 to-yellow-500">
                 Aidan
                 </span>
               </span>

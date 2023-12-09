@@ -15,7 +15,7 @@ const projectData = [
         id: 2,
         title: "Leave Management System (C Programming) ",
         description: "A project I worked on during my undergraduate studies. I coded this using the C-programming language.",
-        image: "/projects/clubdao.png",
+        image: "C:/Users/aidan/njstut/public/LeaveManagement.png",
         gitUrl: "https://github.com/AidanChang04/Leave-Management-System-C-Programming-"
     },
 
