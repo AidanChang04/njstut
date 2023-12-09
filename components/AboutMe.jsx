@@ -9,14 +9,14 @@ const TAB_DATA = [
         id: "skills",
         content: (
           <ul className="list-disc pl-2">
-                <li>React</li>
-                <li>Next.js</li>
-                <li>JavaScript</li>
-                <li>Solidity</li>
+                <li>Java</li>
+                <li>Python</li>
+                <li>SQL</li>
+                <li>R</li>
+                <li>C</li>
                 <li>HTML</li>
                 <li>CSS</li>
-                <li>Tailwind CSS</li>
-                <li>Python</li>
+                <li>C++</li>
           </ul>
         ),
     },
@@ -25,17 +25,7 @@ const TAB_DATA = [
         id: "experiences",
         content: (
           <ul className="list-disc pl-2">
-            <li>ETH Singapore</li>
-            <li>ETH KL</li>
-            <li>ETH Online</li>
-            <li>ETHGlobal Superhack</li>
-            <li>Solana Hyperdrive</li>
-            <li>APUBCC Sparkathon</li>
-            <li>Encode Club</li>
-            <li>Google CTF</li>
-            <li>NUS Grey CTF</li>
-            <li>Tune Protect Hackathon</li>
-            <li>geNFesT Ideathon</li>
+            <li>TuneProtect Hackathon 2023</li>
           </ul>
         ),
     },
