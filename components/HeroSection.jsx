@@ -4,7 +4,6 @@ import { motion } from "framer-motion";
 import Link from "next/link";
 import dynamic from "next/dynamic";
 
-
 const HeroSection = () => {
   return (
     <main className="py-16 mt-16 md-flex md:shrink-0 ">
@@ -15,17 +14,15 @@ const HeroSection = () => {
           transition={{ duration: 0.5 }}
           className="col-span-1 md:col-span-8 place-self-center justify-self-start"
         >
-          <h1 className="font-extrabold" style = {{ lineHeight: '1.5'}}>
+          <h1 className="font-extrabold" style={{ lineHeight: "1.5" }}>
             {/* span text separator -- for design*/}
             <span className="text-white text-8xl">
-              Hello, I'm{" "}
+              Hello, I&apos;m{" "}
               <span className="text-transparent bg-clip-text sm:text-8xl md:text-9xl bg-gradient-to-r from-red-500 via-orange-500 to-yellow-500">
                 Aidan!
               </span>
             </span>
-            <div className="text-white text-6xl">
-              I am...
-            </div>
+            <div className="text-white text-6xl">I am...</div>
             <span className="text-5xl">
               <TypeWritter
                 options={{
@@ -33,8 +30,7 @@ const HeroSection = () => {
                   loop: true,
                 }}
                 onInit={(typewriter) => {
-                  typewriter
-                    .typeString`<span style="color:#c493ff">Hardworking 💪</span>`
+                  typewriter.typeString`<span style="color:#c493ff">Hardworking 💪</span>`
                     .pauseFor(1500)
                     .deleteAll()
                     .typeString`<span style="color:#fefedf">Enthusiastic 🙋</span>`
@@ -49,17 +45,19 @@ const HeroSection = () => {
             </span>
           </h1>
           <p className="text-gray-300 pt-8 text-base sm:text-lg mb-6 lg:text-xl">
-            Let's scroll down to see more about me!
+            Let&apos;s scroll down to see more about me!
           </p>
           <Link
             href="#projects"
-            className="px-12 mb-4 inline-block py-3 rounded-full mr-4 border-solid border-2 border-indigo-600 hover:bg-violet-600">
+            className="px-12 mb-4 inline-block py-3 rounded-full mr-4 border-solid border-2 border-indigo-600 hover:bg-violet-600"
+          >
             <span className="text-xl text-white">My Projects</span>
           </Link>
 
           <Link
             href=""
-            className="px-6 inline-block py-3 rounded-full mr-4 border-solid border-2  border-pink-500 hover:bg-pink-400">
+            className="px-6 inline-block py-3 rounded-full mr-4 border-solid border-2  border-pink-500 hover:bg-pink-400"
+          >
             <span className="text-xl text-white">My Resume</span>
           </Link>
         </motion.div>
