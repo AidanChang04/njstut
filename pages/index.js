@@ -8,7 +8,7 @@ import AchievementsSection from 'C:/Users/aidan/njstut/components/AchievementsSe
 
 //Server: not found error handler
 const HeroSection = dynamic(
-  () => import('../../components/HeroSection'),
+  () => import('C:/Users/aidan/njstut/components/HeroSection.jsx'),
   { ssr: false }
 );
 
